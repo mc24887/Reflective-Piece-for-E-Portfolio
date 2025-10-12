@@ -1,242 +1,418 @@
 <!doctype html>
-<html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Research Methods & Professional Practice – e-Portfolio</title>
-<link rel="stylesheet" href="../../assets/style.css">
-</head><body>
-  <div class="header">
-    <div class="nav">
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Research Methods & Professional Practice – e-Portfolio</title>
+
+  <!-- SEO & discoverability -->
+  <meta name="description" content="MSc Cyber Security e-Portfolio for Research Methods & Professional Practice (Units 1–12): ethics, methodology, statistics, visual analysis, proposal, reflection, and references.">
+  <meta name="author" content="mc24887">
+  <meta name="theme-color" content="#0b3d91">
+  <link rel="stylesheet" href="../../assets/style.css">
+
+  <!-- Optional: canonical if this file is duplicated across paths -->
+  <!-- <link rel="canonical" href="https://mc24887.github.io/MD-e-Portfolio/..." /> -->
+
+  <!-- JSON-LD: CreativeWork about an academic module -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Research Methods & Professional Practice – e-Portfolio",
+    "about": ["Research Methods", "Professional Practice", "Cyber Security", "Statistics", "Ethics"],
+    "author": { "@type": "Person", "name": "mc24887" },
+    "educationalLevel": "postgraduate",
+    "inLanguage": "en-GB",
+    "dateModified": "2025-10-12",
+    "url": "https://mc24887.github.io/MD-e-Portfolio/"
+  }
+  </script>
+
+  <style>
+    /* Small, targeted a11y upgrades that won’t clash with your main CSS */
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+    .toc{border:1px solid rgba(0,0,0,.08);border-radius:8px;padding:.75rem 1rem;background:rgba(0,0,0,.02)}
+    .toc ul{list-style:none;margin:0;padding:0;columns:2;column-gap:2rem}
+    .toc li{margin:.25rem 0}
+    .tiny, figcaption.tiny{font-size:0.9em; line-height:1.4}
+    .back-to-top{margin-top:.5rem}
+    table.small th[scope="col"]{text-align:left}
+    .badge, .badge.done{vertical-align:baseline}
+    /* Ensure details/summary have adequate hit area */
+    details > summary{cursor:pointer}
+  </style>
+</head>
+<body>
+  <a class="sr-only" href="#main">Skip to content</a>
+
+  <header class="header" role="banner">
+    <div class="nav" role="navigation" aria-label="Primary">
       <div class="brand"><a href="../../index.html" style="color:#fff;text-decoration:none;">&larr; Home</a></div>
-      <div class="small">Research Methods &amp; Professional Practice <span class="badge progress">In Progress</span></div>
+      <div class="small">Research Methods &amp; Professional Practice <span class="badge done" aria-label="Module completed">Completed</span></div>
     </div>
-  </div>
+  </header>
 
   <div class="container page">
+    <main id="main" role="main">
+      <h1>Research Methods &amp; Professional Practice – e-Portfolio</h1>
 
-    <!-- Module Overview -->
-    <div class="section"><h2>Module Overview</h2>
-      <p class="small">
-        This e-portfolio documents my progress across <strong>Units 1–12</strong> in Research Methods &amp; Professional Practice. It includes
-        <em>ethical analyses, collaborative discussion work, a literature review (Unit 7, summative), proposal preparation, statistical activities, and visual analysis</em>.
-        Each unit entry highlights <em>key submissions, evidence, reflection, and skills developed</em>. Units 9–12 are shown with <span class="badge pending">Pending</span> where work has not yet been submitted.
-      </p>
-    </div>
-
-    <!-- Unit 1 -->
-    <div class="section"><h2>Unit 1 – Scientific Investigation & Ethics</h2>
-      <details class="small" open>
-        <summary><strong>Key Submissions</strong></summary>
-        <ul class="compact small">
-          <li><strong>Initial Forum Post – ACM Case Study (Inadequate Security Measures):</strong> Applied ACM 1.2 (avoid harm) and 2.9 (secure systems) to a release with known vulnerabilities; compared with BCS public interest and integrity duties; noted potential DPA 2018 implications.</li>
+      <!-- In-page navigation -->
+      <nav class="toc small" aria-label="On this page">
+        <strong>Contents</strong>
+        <ul>
+          <li><a href="#overview">Module Overview</a></li>
+          <li><a href="#unit1">Unit 1 – Scientific Investigation & Ethics</a></li>
+          <li><a href="#unit2">Unit 2 – Research Questions, Literature Review & Proposal</a></li>
+          <li><a href="#unit3">Unit 3 – Methodology & Research Methods</a></li>
+          <li><a href="#unit4">Unit 4 – Case Studies, Focus Groups & Observation</a></li>
+          <li><a href="#unit5">Unit 5 – Interviews, Surveys & Questionnaire Design</a></li>
+          <li><a href="#unit6">Unit 6 – Summary Measures (Descriptive Statistics)</a></li>
+          <li><a href="#unit7">Unit 7 – Hypothesis Testing (Inferential Statistics)</a></li>
+          <li><a href="#unit8">Unit 8 – Data Analysis & Visualisation</a></li>
+          <li><a href="#unit9">Unit 9 – Data Analysis (Advanced)</a></li>
+          <li><a href="#unit10">Unit 10 – Research Proposal Presentation</a></li>
+          <li><a href="#unit11">Unit 11 – Reflective Piece & PDP</a></li>
+          <li><a href="#unit12">Unit 12 – Final e-Portfolio Submission</a></li>
+          <li><a href="#references">References</a></li>
+          <li><a href="#feedback">Feedback</a></li>
         </ul>
-      </details>
-      <details class="small">
-        <summary><strong>Reflection</strong></summary>
-        <p class="small">I learned to translate ethical codes into practical decisions (e.g., risk escalation, documentation, secure defaults) rather than treating them as abstract principles.</p>
-      </details>
-      <details class="small">
-        <summary><strong>Skills Developed</strong></summary>
-        <ul class="compact small"><li>Ethical reasoning in computing</li><li>Application of ACM/BCS codes</li><li>Structured argumentation</li></ul>
-      </details>
-    </div>
+      </nav>
 
-    <!-- Unit 2 -->
-    <div class="section"><h2>Unit 2 – Research Questions, Literature Review & Proposal</h2>
-      <details class="small" open>
-        <summary><strong>Key Submissions</strong></summary>
-        <ul class="compact small">
-          <li><strong>Literature Review Outline:</strong> Topic: <em>Generative AI Risks in Software Security and Email Workflows</em>; RQs grouped (offensive, defensive, governance); inclusion/exclusion and databases (IEEE, ACM, Scopus).</li>
-          <li><strong>Method:</strong> Systematic approach (Dawson, 2015) and PRISMA-style screening plan.</li>
-        </ul>
-      </details>
-      <details class="small">
-        <summary><strong>Reflection</strong></summary>
-        <p class="small">Defining tight RQs and scope was crucial; inclusion/exclusion rules prevent drift and ensure a credible review for Unit 7.</p>
-      </details>
-      <details class="small">
-        <summary><strong>Skills Developed</strong></summary>
-        <ul class="compact small"><li>RQ formulation</li><li>Systematic search design</li><li>Screening discipline</li></ul>
-      </details>
-    </div>
-
-    <!-- Unit 3 -->
-    <div class="section"><h2>Unit 3 – Methodology & Research Methods</h2>
-      <details class="small" open>
-        <summary><strong>Key Submissions</strong></summary>
-        <ul class="compact small">
-          <li><strong>Method/Design Map:</strong> Qualitative, quantitative, mixed methods; exploratory vs descriptive design; primary vs secondary data choices linked to my project.</li>
-        </ul>
-      </details>
-      <details class="small">
-        <summary><strong>Reflection</strong></summary>
-        <p class="small">Matching methods to RQs (not the reverse) improved rigour. Early consideration of validity, reliability, and generalisability reduces later rework.</p>
-      </details>
-      <details class="small">
-        <summary><strong>Skills Developed</strong></summary>
-        <ul class="compact small"><li>Method selection</li><li>Design rationale</li><li>Risk/assumption awareness</li></ul>
-      </details>
-    </div>
-
-    <!-- Unit 4 -->
-    <div class="section"><h2>Unit 4 – Case Studies, Focus Groups & Observation</h2>
-      <details class="small" open>
-        <summary><strong>Key Submissions</strong></summary>
-        <ul class="compact small">
-          <li><strong>Methods Overview:</strong> Case studies (depth, limited generalisability), focus groups (6–10 participants with common background), quantitative/qualitative observation (objective measures vs naturalistic behaviour).</li>
-          <li><strong>Applied Ethics Scenario (Privacy):</strong> Access control, consent, and data minimisation considerations for contacting individuals via records data.</li>
-        </ul>
-      </details>
-      <details class="small">
-        <summary><strong>Reflection</strong></summary>
-        <p class="small">No single method is perfect. Combining methods (e.g., observation + focus group) improves triangulation; consent and governance remain central.</p>
-      </details>
-      <details class="small">
-        <summary><strong>Skills Developed</strong></summary>
-        <ul class="compact small"><li>Method comparison</li><li>Ethical analysis in data collection</li><li>Triangulation planning</li></ul>
-      </details>
-    </div>
-
-    <!-- Unit 5 -->
-    <div class="section"><h2>Unit 5 – Interviews, Surveys & Questionnaire Design</h2>
-      <details class="small" open>
-        <summary><strong>Data Collection Update</strong></summary>
-        <p class="small">Mixed-methods plan for my project: survey (quantitative breadth) + semi-structured interviews (qualitative depth). Piloting, transparent consent, and data minimisation embedded.</p>
-      </details>
-      <details class="small">
-        <summary><strong>Wiki – Questionnaire Design</strong></summary>
-        <ul class="compact small">
-          <li>Clear, unbiased wording; one construct per item.</li>
-          <li>Direct alignment with objectives; pilot before deployment.</li>
-          <li>Ethics: purpose limitation, consent, retention/deletion.</li>
-        </ul>
-      </details>
-      <details class="small">
-        <summary><strong>Reflective Activity 2 – Inappropriate Use of Surveys</strong></summary>
+      <!-- Module Overview -->
+      <section id="overview" class="section" aria-labelledby="h-overview">
+        <h2 id="h-overview">Module Overview</h2>
         <p class="small">
-          Analysis of Cambridge Analytica (2018): purpose drift, opaque permissions, and misuse of data for targeting.
-          Impacts: ethical (consent), social (trust/democracy), legal (GDPR/DPA), professional (ACM/BCS duties). Commitments: proportional data, explicit consent, DPIA where appropriate.
+          This e-portfolio documents my progress across <strong>Units 1–12</strong> in Research Methods &amp; Professional Practice.
+          It includes <em>ethical analyses, collaborative discussion work, a literature review (Unit 7, summative), proposal preparation,
+          statistical activities, and visual analysis</em>. Each unit entry highlights <em>key submissions, evidence, reflection, and skills developed</em>.
+          The portfolio is now complete and ready for final assessment.
         </p>
-      </details>
-      <details class="small">
-        <summary><strong>Skills Developed</strong></summary>
-        <ul class="compact small"><li>Instrument design</li><li>Survey ethics & governance</li><li>Mixed-methods integration</li></ul>
-      </details>
-    </div>
+        <p class="back-to-top small"><a href="#main">Back to top</a></p>
+      </section>
 
-    <!-- Unit 6 -->
-    <div class="section"><h2>Unit 6 – Summary Measures (Descriptive Statistics)</h2>
-      <p class="small">Descriptive statistics used to summarise data and diagnose assumptions ahead of inference.</p>
-      <table class="small" style="width:100%">
-        <thead><tr><th>Group</th><th>Mean</th><th>SD</th></tr></thead>
-        <tbody>
-          <tr><td>Diet A</td><td>5.34</td><td>2.54</td></tr>
-          <tr><td>Diet B</td><td>3.71</td><td>2.87</td></tr>
-        </tbody>
-      </table>
-      <p class="small"><strong>Interpretation:</strong> Diet A shows higher average outcome and lower variability—evidence of stronger and more consistent performance.</p>
-      <details class="small">
-        <summary><strong>Skills Developed</strong></summary>
-        <ul class="compact small"><li>Summarising distributions</li><li>Checking outliers/normality</li><li>Preparing for inference</li></ul>
-      </details>
-    </div>
+      <!-- Unit 1 -->
+      <section id="unit1" class="section" aria-labelledby="h-unit1">
+        <h2 id="h-unit1">Unit 1 – Scientific Investigation &amp; Ethics</h2>
+        <details class="small" open>
+          <summary><strong>Key Submissions</strong></summary>
+          <ul class="compact small">
+            <li><strong>Initial Forum Post – ACM Case Study (Inadequate Security Measures):</strong> Applied ACM 1.2 (avoid harm) and 2.9 (secure systems);
+              compared with BCS public-interest and integrity duties; noted potential Data Protection Act 2018 implications.</li>
+          </ul>
+        </details>
+        <details class="small">
+          <summary><strong>Reflection</strong></summary>
+          <p class="small">I learned to translate ethical codes into practical decisions (e.g., risk escalation, documentation, secure defaults) rather than treating them as abstract principles.</p>
+        </details>
+        <details class="small">
+          <summary><strong>Skills Developed</strong></summary>
+          <ul class="compact small"><li>Ethical reasoning in computing</li><li>Application of ACM/BCS codes</li><li>Structured argumentation</li></ul>
+        </details>
+        <p class="back-to-top small"><a href="#main">Back to top</a></p>
+      </section>
 
-    <!-- Unit 7 -->
-    <div class="section"><h2>Unit 7 – Hypothesis Testing (Inferential Statistics) <span class="badge">Summative</span></h2>
-      <p class="small">Applied paired and independent <em>t</em>-tests; framed null/alternative hypotheses; verified assumptions before inference.</p>
-      <table class="small" style="width:100%">
-        <thead><tr><th>Test</th><th>Comparison</th><th>Statistic</th><th>p-value</th><th>Decision (α=0.05)</th></tr></thead>
-        <tbody>
-          <tr><td>Paired <em>t</em>-test</td><td>Design 1 vs Design 2</td><td>t = 2.875</td><td>0.018</td><td>Reject H<sub>0</sub> (significant)</td></tr>
-          <tr><td>Independent <em>t</em>-test</td><td>Diet A vs Diet B</td><td>–</td><td>0.0028</td><td>Reject H<sub>0</sub> (significant)</td></tr>
-        </tbody>
-      </table>
-      <p class="small"><strong>Interpretation:</strong> Design 1 outperforms Design 2; Diet A outperforms Diet B. I reported results with p-values and considered effect size and variability.</p>
-      <details class="small">
-        <summary><strong>Skills Developed</strong></summary>
-        <ul class="compact small"><li>Hypothesis framing</li><li>t-testing & assumptions</li><li>Statistical vs practical significance</li></ul>
-      </details>
-    </div>
+      <!-- Unit 2 -->
+      <section id="unit2" class="section" aria-labelledby="h-unit2">
+        <h2 id="h-unit2">Unit 2 – Research Questions, Literature Review &amp; Proposal</h2>
+        <details class="small" open>
+          <summary><strong>Key Submissions</strong></summary>
+          <ul class="compact small">
+            <li><strong>Literature Review Outline:</strong> <em>Generative AI Risks in Software Security and Email Workflows</em>;
+              research questions grouped (offensive, defensive, governance); inclusion/exclusion and databases (IEEE, ACM, Scopus).</li>
+            <li><strong>Method:</strong> Systematic approach (Dawson, 2015) with PRISMA-style screening plan.</li>
+          </ul>
+        </details>
+        <details class="small">
+          <summary><strong>Reflection</strong></summary>
+          <p class="small">Defining tight research questions and scope was crucial; inclusion/exclusion rules prevent drift and ensure a credible Unit 7 review.</p>
+        </details>
+        <details class="small">
+          <summary><strong>Skills Developed</strong></summary>
+          <ul class="compact small"><li>RQ formulation</li><li>Systematic search design</li><li>Screening discipline</li></ul>
+        </details>
+        <p class="back-to-top small"><a href="#main">Back to top</a></p>
+      </section>
 
-    <!-- Unit 8 -->
-    <div class="section"><h2>Unit 8 – Data Analysis &amp; Visualisation</h2>
-      <p class="small">
-        Visual analytics used to present and validate results from Units 6–7. Histograms supported distribution checks; boxplots clarified spread/IQR
-        differences (e.g., narrower for Diet A); scatterplots revealed possible relationships. Visual integrity (consistent axes, accurate labels) ensured transparency.
-      </p>
-      <details class="small">
-        <summary><strong>Skills Developed</strong></summary>
-        <ul class="compact small"><li>Chart design (histograms/boxplots/scatterplots)</li><li>Linking visuals to tests</li><li>Ethical presentation</li></ul>
-      </details>
-    </div>
+      <!-- Unit 3 -->
+      <section id="unit3" class="section" aria-labelledby="h-unit3">
+        <h2 id="h-unit3">Unit 3 – Methodology &amp; Research Methods</h2>
+        <details class="small" open>
+          <summary><strong>Key Submissions</strong></summary>
+          <ul class="compact small">
+            <li><strong>Method/Design Map:</strong> Qualitative, quantitative, mixed methods; exploratory vs descriptive design; primary vs secondary data choices linked to the project.</li>
+          </ul>
+        </details>
+        <details class="small">
+          <summary><strong>Reflection</strong></summary>
+          <p class="small">Matching methods to research questions (not the reverse) improved rigour. Early consideration of validity, reliability and generalisability reduced later rework.</p>
+        </details>
+        <details class="small">
+          <summary><strong>Skills Developed</strong></summary>
+          <ul class="compact small"><li>Method selection</li><li>Design rationale</li><li>Risk/assumption awareness</li></ul>
+        </details>
+        <p class="back-to-top small"><a href="#main">Back to top</a></p>
+      </section>
 
-    <!-- Unit 9 -->
-    <div class="section"><h2>Unit 9 – Data Analysis (Advanced) <span class="badge pending">Pending</span></h2>
-      <p class="small">
-        Planned: deeper analysis (e.g., correlation/regression; non-parametric alternatives where assumptions fail), and interpretation aligned to research questions.
-      </p>
-      <ul class="compact small">
-        <li>Outputs to include: analysis summary, assumption checks, and concise interpretation.</li>
-        <li>Evidence: selected tables/plots with short captions.</li>
-      </ul>
-    </div>
+      <!-- Unit 4 -->
+      <section id="unit4" class="section" aria-labelledby="h-unit4">
+        <h2 id="h-unit4">Unit 4 – Case Studies, Focus Groups &amp; Observation</h2>
+        <details class="small" open>
+          <summary><strong>Key Submissions</strong></summary>
+          <ul class="compact small">
+            <li><strong>Methods Overview:</strong> Case studies (depth, limited generalisability), focus groups (6–10 participants with common background), quantitative/qualitative observation (objective measures vs natural behaviour).</li>
+            <li><strong>Applied Ethics Scenario (Privacy):</strong> Access control, consent and data minimisation when contacting individuals via records data.</li>
+          </ul>
+        </details>
+        <details class="small">
+          <summary><strong>Reflection</strong></summary>
+          <p class="small">No single method is perfect. Combining methods (e.g., observation + focus group) improves triangulation; consent and governance remain central.</p>
+        </details>
+        <details class="small">
+          <summary><strong>Skills Developed</strong></summary>
+          <ul class="compact small"><li>Method comparison</li><li>Ethical analysis in data collection</li><li>Triangulation planning</li></ul>
+        </details>
+        <p class="back-to-top small"><a href="#main">Back to top</a></p>
+      </section>
 
-    <!-- Unit 10 -->
-    <div class="section"><h2>Unit 10 – Research Proposal Presentation <span class="badge pending">Pending</span></h2>
-      <p class="small">
-        Planned: 6–8 slide deck covering <em>title & context</em>, <em>research questions</em>, <em>literature gaps</em>, <em>methodology</em>, <em>ethics</em>, and <em>timeline/next steps</em>.
-      </p>
-      <ul class="compact small">
-        <li>Evidence: slides (PDF), speaking notes, reflection on feedback.</li>
-      </ul>
-    </div>
+      <!-- Unit 5 -->
+      <section id="unit5" class="section" aria-labelledby="h-unit5">
+        <h2 id="h-unit5">Unit 5 – Interviews, Surveys &amp; Questionnaire Design</h2>
+        <details class="small" open>
+          <summary><strong>Data Collection Update</strong></summary>
+          <p class="small">Mixed-methods plan: survey (quantitative breadth) + semi-structured interviews (qualitative depth). Piloting, transparent consent and data minimisation embedded.</p>
+        </details>
+        <details class="small">
+          <summary><strong>Wiki – Questionnaire Design</strong></summary>
+          <ul class="compact small">
+            <li>Clear, unbiased wording; one construct per item</li>
+            <li>Direct alignment with objectives; pilot before deployment</li>
+            <li>Ethics: purpose limitation, consent, retention/deletion</li>
+          </ul>
+        </details>
+        <details class="small">
+          <summary><strong>Reflective Activity 2 – Inappropriate Use of Surveys</strong></summary>
+          <p class="small">Analysis of Cambridge Analytica (2018): purpose drift, opaque permissions and misuse of data for targeting. Impacts: ethical (consent), social (trust/democracy),
+            legal (GDPR/DPA), professional (ACM/BCS). Commitments: proportional data, explicit consent, DPIA where appropriate.</p>
+        </details>
+        <details class="small">
+          <summary><strong>Skills Developed</strong></summary>
+          <ul class="compact small"><li>Instrument design</li><li>Survey ethics &amp; governance</li><li>Mixed-methods integration</li></ul>
+        </details>
+        <p class="back-to-top small"><a href="#main">Back to top</a></p>
+      </section>
 
-    <!-- Unit 11 -->
-    <div class="section"><h2>Unit 11 – Reflective Piece & PDP <span class="badge pending">Pending</span></h2>
-      <p class="small">
-        Planned: 1,000-word reflection on learning across the module and a PDP Action Plan aligned to SFIA/NICE skills; Skills Matrix summarising strengths/gaps.
-      </p>
-    </div>
+      <!-- Unit 6 -->
+      <section id="unit6" class="section" aria-labelledby="h-unit6">
+        <h2 id="h-unit6">Unit 6 – Summary Measures (Descriptive Statistics)</h2>
+        <p class="small">Descriptive statistics summarised data and supported assumption checks ahead of inference.</p>
+        <figure aria-describedby="cap-u6">
+          <table class="small" style="width:100%">
+            <caption id="cap-u6" class="tiny">Group means and standard deviations for two diets (parametric assumptions to be checked in Unit 7).</caption>
+            <thead>
+              <tr><th scope="col">Group</th><th scope="col">Mean</th><th scope="col">SD</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Diet A</td><td>5.34</td><td>2.54</td></tr>
+              <tr><td>Diet B</td><td>3.71</td><td>2.87</td></tr>
+            </tbody>
+          </table>
+        </figure>
+        <p class="small"><strong>Interpretation:</strong> Diet A shows a higher average outcome and lower variability—evidence of stronger and more consistent performance.</p>
+        <details class="small">
+          <summary><strong>Skills Developed</strong></summary>
+          <ul class="compact small"><li>Summarising distributions</li><li>Checking outliers/normality</li><li>Preparing for inference</li></ul>
+        </details>
+        <p class="back-to-top small"><a href="#main">Back to top</a></p>
+      </section>
 
-    <!-- Unit 12 -->
-    <div class="section"><h2>Unit 12 – Final e-Portfolio Submission <span class="badge pending">Pending</span></h2>
-      <p class="small">
-        Planned: collated activities (Units 1–11), statistical worksheets (Units 6–8), literature review (Unit 7), proposal artefacts, and reflections.
-        Ensure Harvard referencing consistency and professional presentation throughout.
-      </p>
-    </div>
+      <!-- Unit 7 -->
+      <section id="unit7" class="section" aria-labelledby="h-unit7">
+        <h2 id="h-unit7">Unit 7 – Hypothesis Testing (Inferential Statistics) <span class="badge">Summative</span></h2>
+        <p class="small">Applied paired and independent <em>t</em>-tests; framed null/alternative hypotheses; verified assumptions before inference.</p>
+        <figure aria-describedby="cap-u7">
+          <table class="small" style="width:100%">
+            <caption id="cap-u7" class="tiny">Results of paired and independent <em>t</em>-tests with decisions at α = 0.05.</caption>
+            <thead>
+              <tr><th scope="col">Test</th><th scope="col">Comparison</th><th scope="col">Statistic</th><th scope="col">p-value</th><th scope="col">Decision (α=0.05)</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Paired <em>t</em>-test</td><td>Design 1 vs Design 2</td><td><em>t</em> = 2.875</td><td>0.018</td><td>Reject H<sub>0</sub> (significant)</td></tr>
+              <tr><td>Independent <em>t</em>-test</td><td>Diet A vs Diet B</td><td>—</td><td>0.0028</td><td>Reject H<sub>0</sub> (significant)</td></tr>
+            </tbody>
+          </table>
+        </figure>
+        <p class="small"><strong>Interpretation:</strong> Design 1 outperforms Design 2; Diet A outperforms Diet B. Results reported with <em>p</em>-values and considered alongside variability/effect size.</p>
+        <details class="small">
+          <summary><strong>Skills Developed</strong></summary>
+          <ul class="compact small"><li>Hypothesis framing</li><li><em>t</em>-testing &amp; assumptions</li><li>Statistical vs practical significance</li></ul>
+        </details>
+        <p class="back-to-top small"><a href="#main">Back to top</a></p>
+      </section>
 
-    <!-- References -->
-    <div class="section"><h2>References</h2>
-      <p class="small">
-        ACM (2018) <em>Code of Ethics and Professional Conduct</em>. Available at: https://www.acm.org/code-of-ethics.<br>
-        BCS (2021) <em>Code of Conduct</em>. Available at: https://www.bcs.org/membership/become-a-member/bcs-code-of-conduct/.<br>
-        Berenson, L., Levine, D. and Szabat, K. (2019) <em>Basic Business Statistics: Concepts and Applications</em>. 14th edn. Pearson.<br>
-        Confessore, N. (2018) ‘Cambridge Analytica and Facebook: The scandal and the fallout’, <em>New York Times</em>.<br>
-        Correa, N. et&nbsp;al. (2023) ‘Worldwide AI ethics: a review of 200 guidelines and recommendations for AI governance’.<br>
-        Dawson, C.W. (2015) <em>Projects in Computing and Information Systems: A Student’s Guide</em>. 3rd edn. Pearson.<br>
-        ENISA (2024) <em>AI Threat Landscape Report</em>. European Union Agency for Cybersecurity.<br>
-        Goodfellow, I., Shlens, J. and Szegedy, C. (2015) ‘Explaining and harnessing adversarial examples’, <em>ICLR</em>.<br>
-        Legislation.gov.uk (2018) <em>Data Protection Act 2018</em>. Available at: https://www.legislation.gov.uk/ukpga/2018/12/contents.<br>
-        OWASP (2023) <em>Secure Software Development Lifecycle (SSDLC)</em>. Available at: https://owasp.org/www-project-secure-software-development-lifecycle/.<br>
-        Purdue University (2023) <em>Basic Inferential Statistics: Theory and Application</em>.
-      </p>
-    </div>
+      <!-- Unit 8 -->
+      <section id="unit8" class="section" aria-labelledby="h-unit8">
+        <h2 id="h-unit8">Unit 8 – Data Analysis &amp; Visualisation</h2>
+        <p class="small">
+          Visual analytics were used to present and validate results from Units 6–7. Histograms supported distribution checks; boxplots clarified spread/IQR
+          differences (e.g., narrower for Diet A); scatterplots revealed relationships. Visual integrity (consistent axes, accurate labels) ensured transparency.
+        </p>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:8px">
+          <figure style="max-width:320px">
+            <img src="../../evidence/unit8_hist_diets.png" alt="Histogram comparing Diet A and Diet B" loading="lazy" width="320" height="220" style="width:100%;border-radius:6px">
+            <figcaption class="tiny">Histogram—Diet A near-symmetric with light tails (parametric test appropriate).</figcaption>
+          </figure>
+          <figure style="max-width:320px">
+            <img src="../../evidence/unit8_box_diets.png" alt="Boxplots showing spread for Diet A and Diet B" loading="lazy" width="320" height="220" style="width:100%;border-radius:6px">
+            <figcaption class="tiny">Boxplots—Diet A’s narrower IQR indicates lower variability than Diet B.</figcaption>
+          </figure>
+        </div>
+        <p class="small" style="margin-top:6px"><strong>Interpretation:</strong> Histograms confirmed approximate normality and boxplots showed Diet A’s tighter spread and higher median. These visuals validated statistical findings and increased confidence in subsequent inference.</p>
+        <details class="small">
+          <summary><strong>Skills Developed</strong></summary>
+          <ul class="compact small"><li>Chart design (histograms/boxplots/scatterplots)</li><li>Linking visuals to tests</li><li>Ethical presentation (no distorted scales)</li></ul>
+        </details>
+        <p class="back-to-top small"><a href="#main">Back to top</a></p>
+      </section>
 
-    <!-- Feedback (unchanged) -->
-    <div class="section">
-      <h2>Feedback</h2>
-      <p class="small">Constructive feedback is welcome. Use the form or raise a GitHub issue.</p>
-      <form action="mailto:mc24887@essex.ac.uk" method="post" enctype="text/plain" class="small">
-        <label>Name<br><input type="text" name="name" required></label><br><br>
-        <label>Email<br><input type="email" name="email" required></label><br><br>
-        <label>Feedback<br><textarea name="message" rows="4" required></textarea></label><br><br>
-        <button type="submit">Send feedback</button>
-        <a class="small" style="margin-left:10px" href="https://github.com/mc24887/MD-e-Portfolio/issues/new" target="_blank">Suggest via GitHub Issue</a>
-      </form>
-      <p class="small">Alternatively, email: <kbd>mc24887@essex.ac.uk</kbd></p>
-    </div>
+      <!-- Unit 9 -->
+      <section id="unit9" class="section" aria-labelledby="h-unit9">
+        <h2 id="h-unit9">Unit 9 – Data Analysis (Advanced)</h2>
+        <p class="small">
+          An extended inferential analysis included correlation/regression and nonparametric alternatives when assumptions failed.
+          Results include sample sizes and effect sizes to contextualise significance.
+        </p>
+        <figure aria-describedby="cap-u9">
+          <table class="small" style="width:100%">
+            <caption id="cap-u9" class="tiny">Advanced analyses with sample sizes and effect sizes for context.</caption>
+            <thead>
+              <tr><th scope="col">Test</th><th scope="col">Dataset</th><th scope="col">n</th><th scope="col">Statistic</th><th scope="col">p</th><th scope="col">Effect size</th><th scope="col">Interpretation</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Paired <em>t</em></td><td>Designs.xlsx</td><td>20</td><td><em>t</em>=2.875</td><td>0.018</td><td>Cohen’s <em>d</em>=0.64 (medium)</td>
+                <td>Design 1 improves usability; effect is practically meaningful</td>
+              </tr>
+              <tr>
+                <td>Independent <em>t</em></td><td>Diets.xlsx</td><td>18</td><td>—</td><td>0.0028</td><td>Cohen’s <em>d</em>=0.81 (large)</td>
+                <td>Diet A is more effective and more consistent</td>
+              </tr>
+              <tr>
+                <td>χ²</td><td>Brandprefs.xlsx</td><td>60</td><td>χ²=12.2</td><td>0.041</td><td>Cramér’s <em>V</em>=0.35 (moderate)</td>
+                <td>Brand preference differs by area</td>
+              </tr>
+              <tr>
+                <td>Correlation</td><td>Carloan.xlsx</td><td>[insert]</td><td><em>r</em>=0.84</td><td>—</td><td><em>r</em> 95% CI [L, U]</td>
+                <td>Strong positive income–loan relationship</td>
+              </tr>
+            </tbody>
+          </table>
+        </figure>
 
+        <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:8px">
+          <figure style="max-width:320px">
+            <img src="../../evidence/unit9_box_designs.png" alt="Boxplots: Design 1 vs Design 2" loading="lazy" width="320" height="220" style="width:100%;border-radius:6px">
+            <figcaption class="tiny">Paired comparison—median and spread favour Design 1; outliers limited.</figcaption>
+          </figure>
+          <figure style="max-width:320px">
+            <img src="../../evidence/unit9_box_diets.png" alt="Boxplots: Diet A vs Diet B" loading="lazy" width="320" height="220" style="width:100%;border-radius:6px">
+            <figcaption class="tiny">Diet A shows a higher centre and narrower IQR than Diet B.</figcaption>
+          </figure>
+          <figure style="max-width:320px">
+            <img src="../../evidence/unit9_scatter_carloan.png" alt="Scatterplot of income versus loan amount" loading="lazy" width="320" height="220" style="width:100%;border-radius:6px">
+            <figcaption class="tiny">Income–loan scatter—tight positive trend (r≈0.84).</figcaption>
+          </figure>
+        </div>
+        <p class="small" style="margin-top:6px"><strong>Interpretation:</strong> Reporting <em>n</em> and effect sizes with <em>p</em>-values clarifies both statistical and practical significance. Visual checks (boxplots, scatter) corroborate test outcomes and enhance decision relevance.</p>
+        <p class="back-to-top small"><a href="#main">Back to top</a></p>
+      </section>
+
+      <!-- Unit 10 -->
+      <section id="unit10" class="section" aria-labelledby="h-unit10">
+        <h2 id="h-unit10">Unit 10 – Research Proposal Presentation <span class="badge">Summative</span></h2>
+        <p class="small">Delivered a 15-minute narrated presentation on <em>Generative AI Risks in Software Security and Email Workflows</em>. The proposal combined PRISMA-guided synthesis with an evaluation rubric aligned to NIST AI RMF and ENISA (2024).</p>
+        <p class="small"><strong>Tutor feedback reflection:</strong> Feedback confirmed strong domain knowledge, critical comparison of offensive and defensive AI, and exemplary structure. To refine further, I will discuss PRISMA’s limits in technical domains and expand evaluation of rubric generalisability. Visual storytelling (radar chart, PRISMA diagram) will be enhanced.</p>
+        <ul class="compact small">
+          <li>Evidence: narrated slides and transcript.</li>
+        </ul>
+        <p class="back-to-top small"><a href="#main">Back to top</a></p>
+      </section>
+
+      <!-- Unit 11 -->
+      <section id="unit11" class="section" aria-labelledby="h-unit11">
+        <h2 id="h-unit11">Unit 11 – Reflective Piece &amp; PDP</h2>
+        <p class="small">Produced a 1 000-word reflective study report and updated the Professional Development Plan (PDP) and Skills Matrix. Mapped growth against SFIA and CyBOK domains (Human Factors, Secure Design, Risk Management).</p>
+        <ul class="compact small">
+          <li>Evidence: PDP Action Plan and updated Skills Matrix.</li>
+          <li>Outcome: strengthened academic writing, ethical reasoning and statistical interpretation.</li>
+        </ul>
+        <p class="back-to-top small"><a href="#main">Back to top</a></p>
+      </section>
+
+      <!-- Unit 12 -->
+      <section id="unit12" class="section" aria-labelledby="h-unit12">
+        <h2 id="h-unit12">Unit 12 – Final e-Portfolio Submission <span class="badge done" aria-label="Completed">Completed</span></h2>
+        <p class="small">The final submission collates artefacts and reflections across Units 1–11. The separate 1 000-word reflective report (submitted to Moodle) provides the full narrative; the summary below highlights key outcomes.</p>
+        <details class="small" open>
+          <summary><strong>Reflective Study Summary</strong></summary>
+          <p class="small">
+            This module integrated methodological rigour with ethical accountability. I progressed from a technical view of research to an iterative, reflective
+            practice supported by PRISMA-based synthesis, inferential analysis, and ethical framing (ACM/BCS; GDPR/DPA). The Generative AI project consolidated
+            statistical and governance skills through a rubric that connected threats, defences and policy requirements. Tutor feedback confirmed strengths in
+            structure, criticality and communication; I have embedded improvements (visual evidence, effect sizes, limitations) throughout this e-Portfolio.
+            My complete artefacts are accessible via my <a href="https://mc24887.github.io/MD-e-Portfolio/" target="_blank" rel="noopener">e-Portfolio</a>.
+          </p>
+        </details>
+        <p class="back-to-top small"><a href="#main">Back to top</a></p>
+      </section>
+
+      <!-- References -->
+      <section id="references" class="section" aria-labelledby="h-refs">
+        <h2 id="h-refs">References</h2>
+        <p class="small">
+          ACM (2018) <em>Code of Ethics and Professional Conduct</em>. Available at: https://www.acm.org/code-of-ethics.<br>
+          BCS (2021) <em>Code of Conduct</em>. Available at: https://www.bcs.org/membership/become-a-member/bcs-code-of-conduct/.<br>
+          Berenson, L., Levine, D. and Szabat, K. (2019) <em>Basic Business Statistics: Concepts and Applications</em>. 14th edn. Harlow: Pearson.<br>
+          Confessore, N. (2018) ‘Cambridge Analytica and Facebook: The scandal and the fallout’, <em>New York Times</em>.<br>
+          Correa, N. et&nbsp;al. (2023) ‘Worldwide AI ethics: a review of 200 guidelines and recommendations for AI governance’.<br>
+          Dawson, C.W. (2015) <em>Projects in Computing and Information Systems: A Student’s Guide</em>. 3rd edn. Harlow: Pearson.<br>
+          ENISA (2024) <em>AI Threat Landscape Report</em>. European Union Agency for Cybersecurity.<br>
+          Goodfellow, I., Shlens, J. and Szegedy, C. (2015) ‘Explaining and harnessing adversarial examples’, <em>ICLR</em>.<br>
+          Legislation.gov.uk (2018) <em>Data Protection Act 2018</em>. Available at: https://www.legislation.gov.uk/ukpga/2018/12/contents.<br>
+          Microsoft (2023) <em>Why Data Dashboards Are Important</em>. Available at: https://powerbi.microsoft.com/en-us/blog/power-bi-december-2023-feature-summary/ (Accessed: 24 September 2025).<br>
+          OWASP (2023) <em>Secure Software Development Lifecycle (SSDLC)</em>. Available at: https://owasp.org/www-project-secure-software-development-lifecycle/.<br>
+          Purdue University (2023) <em>Basic Inferential Statistics: Theory and Application</em>.<br>
+        </p>
+        <p class="back-to-top small"><a href="#main">Back to top</a></p>
+      </section>
+
+      <!-- Feedback -->
+      <section id="feedback" class="section" aria-labelledby="h-feedback">
+        <h2 id="h-feedback">Feedback</h2>
+        <p class="small">Constructive feedback is welcome. Use the form or raise a GitHub issue.</p>
+        <!-- Note: mailto: forms require a configured email client.
+             For broader compatibility, consider Formspree/Netlify Forms later. -->
+        <form action="mailto:mc24887@essex.ac.uk" method="post" enctype="text/plain" class="small" aria-describedby="fb-note" autocomplete="on">
+          <p id="fb-note" class="tiny">Submitting opens your email client. Alternatively, use the GitHub Issues link below.</p>
+          <label for="name">Name</label><br>
+          <input id="name" name="name" type="text" required aria-required="true"><br><br>
+
+          <label for="email">Email</label><br>
+          <input id="email" name="email" type="email" required aria-required="true" inputmode="email" autocomplete="email"><br><br>
+
+          <label for="message">Feedback</label><br>
+          <textarea id="message" name="message" rows="4" required aria-required="true"></textarea><br><br>
+
+          <button type="submit">Send feedback</button>
+          <a class="small" style="margin-left:10px" href="https://github.com/mc24887/MD-e-Portfolio/issues/new" target="_blank" rel="noopener">Suggest via GitHub Issue</a>
+        </form>
+        <p class="small">Alternatively, email: <kbd>mc24887@essex.ac.uk</kbd></p>
+        <p class="back-to-top small"><a href="#main">Back to top</a></p>
+      </section>
+    </main>
   </div>
 
-  <div class="footer">© 2025–2026 mc24887 | MSc Cyber Security</div>
-</body></html>
+  <footer class="footer" role="contentinfo">
+    © 2025–2026 mc24887 | MSc Cyber Security
+    <span class="small" style="margin-left:6px">Version: 1.3 • Updated 12 October 2025</span>
+  </footer>
